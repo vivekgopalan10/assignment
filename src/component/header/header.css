@@ -1,0 +1,49 @@
+.header-wrapper{
+    height: 60px;
+    background: #ff3f6c;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.back-icon{
+    margin: auto 0;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.back-icon img {
+    height: 20px;
+    width: 20px;
+}
+
+.header-text{
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+}
+
+.icon-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 13px;
+    text-align: center;
+}
+
+.icon-container {
+    padding: 10px;
+    cursor: pointer;
+}
+.icon-container img {
+    height: 20px;
+    width: 20px;
+}
+
+.icon-info{
+    font-size: 12px;
+    font-weight: 800;
+}

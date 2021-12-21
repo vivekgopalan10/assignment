@@ -1,0 +1,22 @@
+.loader::before {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform :translate(-50%, -50%);
+    animation: 1.5s linear infinite spinner;
+    border: solid 3px #eaeef1;
+    border-bottom-color: #ff3f6c;
+    border-radius: 50%;
+    content: "";
+    height: 20px;
+    width: 20px;
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+  }

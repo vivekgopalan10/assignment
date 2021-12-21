@@ -1,0 +1,19 @@
+.virtual-scroll-container {
+    overflow-y: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .virtual-scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  

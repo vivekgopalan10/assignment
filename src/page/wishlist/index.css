@@ -1,0 +1,10 @@
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 66px;
+}
